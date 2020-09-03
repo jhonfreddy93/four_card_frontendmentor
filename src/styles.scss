@@ -15,10 +15,29 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     background-color: $Very_Light_Gray;
+    min-height: 100vh;
+    padding-top: 85px;
 }
 
 main {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    h1{
+        
+        font-size: 2.5em;
+        font-weight: 200;
+        color: $Very_Dark_Blue;
+        span {
+            display: block;
+            font-weight: 600;
+        }
+    }
+    P {
+        max-width: calc(1440/2);
+        margin-left: auto;
+        margin-right: auto;
+        color: $Grayish_Blue;
+    }
 }

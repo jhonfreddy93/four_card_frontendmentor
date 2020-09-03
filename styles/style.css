@@ -2,12 +2,30 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   background-color: #fafafa;
+  min-height: 100vh;
+  padding-top: 85px;
 }
 
 main {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+main h1 {
+  font-size: 2.5em;
+  font-weight: 200;
+  color: #4c4e61;
+}
+main h1 span {
+  display: block;
+  font-weight: 600;
+}
+main P {
+  max-width: calc(1440/2);
+  margin-left: auto;
+  margin-right: auto;
+  color: #a3a5ae;
 }
 
 /*# sourceMappingURL=style.css.map */
